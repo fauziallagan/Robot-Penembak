@@ -13,8 +13,8 @@ Servo base_servo;
 Servo cartridge_servo;
 Servo launcher_servo;
 // Ganti dengan nama serta password WiFi yang akan digunakan
-const char* ssid = "allagan";
-const char* password = "allagankingdom";
+const char* ssid = "Your SSID";
+const char* password = "YOUR PASSWORD";
 // Membuat objek AsyncWebServer di port 80
 AsyncWebServer server(80);
 // Membuat objek AsyncWebSocket
